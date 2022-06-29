@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Hoodie with Pocket</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+  <div class="container-fluid w-100 m-0 p-0">
+    <div class="container-fluid headder d-none d-lg-block ab_mon pb-3">
+      <div class="d-flex justify-content-between ">
+        <div class="d-flex align-items-center mt-3">
+          <i class="far fa-dot-circle ms-5 me-2"></i> <span class="head_text">Welcome to our fitness company</span>
+          <div class="vr mx-3"></div>
+          <div class="dropdown language">
+            <button class="dropdown-toggle lan_toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-globe"></i> Language
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Arabic</a></li>
+              <li><a class="dropdown-item" href="#">Chinese (Simplified)</a></li>
+              <li><a class="dropdown-item" href="#">Dutch</a></li>
+              <li><a class="dropdown-item" href="#">English</a></li>
+              <li><a class="dropdown-item" href="#">French</a></li>
+              <li><a class="dropdown-item" href="#">German</a></li>
+              <li><a class="dropdown-item" href="#">Italian</a></li>
+              <li><a class="dropdown-item" href="#">Portuguese</a></li>
+              <li><a class="dropdown-item" href="#">Russian</a></li>
+              <li><a class="dropdown-item" href="#">Spanish</a></li>
+            </ul>
+          </div>
+          <div class="shape_head"></div>
+        </div>
+        <div class="d-flex align-items-center mt-3 px-4 me-1 right_side ab_gry">
+          <i class="far fa-clock mx-2"></i><span class="time_1 ab_gry">Mon - Sat: 8:00 am - 7:00 pm</span>
+          <div class="vr mx-3"></div>
+          <i class="fab fa-facebook-f mx-2 px-1"></i>
+          <i class="fab fa-twitter mx-2 px-1"></i>
+          <i class="fab fa-instagram mx-2 px-1"></i>
+          <i class="fab fa-linkedin mx-2 px-1"></i>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row pt-5 w-100 d-lg-flex d-none justify-content-between">
+      <nav class="navbar">
+        <div class="icon_contain ms-3">
+          <a class="navbar-brand d-flex" href="#">
+            <img src="Images/Screenshot_2022-02-03_130815-removebg-preview.png" alt="" class="d-inline-block front_icon ms-5">
+            <div class="icon_text lh-1 mt-3">
+            <p class="d-inline text_1 fw-bold fs-1 ab_blk">Gimia</p>
+            <p class="text_2">Fitness Centre</p>
+            </div>
+            </a>
+        </div>
+        <div class="list ms-4">
+        <ul class="navbar-nav mb-2 mb-lg-0 d-flex flex-row mx-4 nav_list lis_blk">
+          <li class="nav-item mx-3">
+            <a class="nav-link" aria-current="page" href="Home.html">HOME</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link active" href="#">PRODUCT</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="About.html">ABOUT</a>
+          </li>
+
+          
+          <li class="nav-item dropdown mx-3">
+            <a class="nav-link" href="Blog.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              BLOG
+            </a>
+          </li>
+          <li class="nav-item dropdown mx-3">
+            <a class="nav-link" href="Contact.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              CONTACT
+            </a>
+          </li>
+          </ul>
+          </div>
+
+          <div class="call ">
+            <div class="row">
+            <div class="col call_1 d-flex align-items-center"><i class="fas fa-phone-volume"></i></div>
+            <div class="col-9">
+              <div class="row call_text1 ab_gry">Free Call</div>
+              <div class="row call_text2 fw-bold ab_blk">+012 3456 789</div>
+            </div>
+            </div>
+          </div>
+          <a class="btn btn-primary contact_btn me-5 fw-bold" href="#" role="button">Contact Us <i class="fas fa-long-arrow-alt-right"></i></a>
+      </nav>
+    </div>
+
+    <!-- offcanvas -->
+
+    <nav class="navbar navbar-light bg-light off_can fixed-top d-lg-none">
+      <div class="container-fluid">
+          <div class="icon_contain">
+            <a class="navbar-brand d-flex ms-5" href="#">
+              <img src="Images/Screenshot_2022-02-03_130815-removebg-preview.png" alt="" class="">
+              <div class="icon_text lh-1 mt-3">
+              <p class="d-inline text_1 fw-bold fs-1">Gimia</p>
+              <p class="text_2">Fitness Centre</p>
+              </div>
+              </a>
+          </div>
+        </a>
+        <button class="navbar-toggler me-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="fs-4"><i class="fas fa-bars"></i></span>
+        </button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header head_lightpink position-relative">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              <div class="icon_contain ms-2">
+                <a class="navbar-brand d-flex" href="#">
+                  <img src="Images/Screenshot_2022-02-03_130815-removebg-preview.png" alt="" class="">
+                  <div class="icon_text lh-1 mt-3">
+                  <p class="d-inline fw-bold fs-1">Gimia</p>
+                  <p class="text_2">Fitness Centre</p>
+                  </div>
+                  </a>
+              </div>
+
+
+            </h5>
+            <button type="button" class="btn-close text-reset position-absolute top-25 start-100 translate-middle" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fas fa-times"></i></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ms-4 off_body">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Home.html"><i class="fas fa-chevron-right of_rt"></i> Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-chevron-right of_rt"></i> Product</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="About.html"><i class="fas fa-chevron-right of_rt"></i> About</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="Blog.html"><i class="fas fa-chevron-right of_rt"></i> Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html"><i class="fas fa-chevron-right of_rt"></i> Contact</a>
+              </li>
+              
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="container-fluid about_1 p-0 m-0">
+        <div class="container-fluid ab_1cast p-0 m-0">
+            <div class="row ab1_text m-auto">
+                <p class="abtex1 fw-bold fs-1">Hoodie with Pocket</p>
+                <p class="abtex2 fw-bold fs-5"><a href="Home.html" class="bread text-decoration-none">Home</a> / Clothing / Hoodies / Hoodie with Pocket</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid passion">
+        <div class="row abpassion_row m-auto">
+            <div class="col-12 col-lg-6 d-flex align-items-center">
+                <div class="container-fluid position-relative">
+                  <img src="Images/product-big-4-1.jpg" class="img-fluid" alt="">
+                
+                <div class="off_pos position-absolute d-flex justify-content-lg-between">
+                    <div class="pr_off text-center d-none d-lg-block">OFFERS</div>
+                    <div class="pr_perct justify-content-center flex-column align-items-center d-lg-flex d-none">
+                        <p class="m-0 p-0">22%</p>
+                        <p class="m-0 p-0">OFF</p>
+                    </div>
+                </div>
+                </div>
+              </div>
+
+          <div class="col-12 col-lg-6 gx-3 mt-5 pt-lg-0 pt-sm-5">
+            <div class="card-body p-4">
+                <h5 class="card-title fs-3">
+                    <div class="amt_linetext d-flex justify-content-start">
+                        <p class="card-text text-center mb-0 c_red">$35.00</p>
+                        <p class="c_gray text-decoration-line-through ms-2 mb-0 fs-5 mt-2">$45.00</p>
+                        </div>
+                </h5>
+                <p class="review_div d-inline-block m-0">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </p>
+                
+                <p class="c_gray my-4">This is a simple product.</p>
+
+                <div class="pro_tex d-flex my-3"><b>Availability:</b> <p class="c_gray d-inline ms-2 mb-0"><i class="far fa-check-square me-1"></i> In Stock</p></div>
+
+                <div class="pro_btnheart d-flex">
+                  <div class="pr_btn1">
+                  <input type="number" value="1" min="1" max="10" class="num_input fw-bold">
+                  <div id="pl-button" class="btn_plm">+</div>
+                  <div id="ms-button" class="btn_plm">-</div>
+                  </div>
+                  <div class="pr_btn2">
+                      <a class="btn btn-primary pr_btn2a contact_btn fw-bold ms-2" href="#" role="button">Add To Cart</a>
+                  </div>
+                  <div class="pr_btn3 d-flex ms-3 mt-3">
+                  <i class="fas fa-heart"></i>
+                  </div>
+                </div>
+                <div class="pro_tex d-flex fs-5">SKU: <p class="c_gray d-inline ms-2 mb-0">Woo-Hoodie-With-Pocket</p></div>
+                <div class="pro_tex d-flex fs-5">Category: <p class="c_gray d-inline ms-2">Hoodies</p></div>
+              </div>
+            
+        </div>
+        </div>
+      </div>
+
+
+
+      <div class="container-fluid tab_pane">
+        <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link line_hov" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab"><b>Description</b></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link line_hov" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab"><b>Additional Information</b></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link line_hov" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab"><b>Reviews (1)</b></button>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane show active content_1 m-auto c_gray mt-4" id="home" role="tabpanel" >
+                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+            </div>
+            <div class="tab-pane" id="profile" role="tabpanel">
+                <div class="row content_2 mt-4 m-auto">
+                    <div class="col c_gray p-2">Color</div>
+                    <div class="col c_gray p-2">Gray</div>
+                </div>
+            </div>
+            <div class="tab-pane" id="contact" role="tabpanel">
+                <div class="row content_3 m-auto mt-4">
+                <div class="card mb-3 foo_card">
+                    <div class="row g-0">
+                      <div class="col-md-1 ms-5">
+                        <img src="Images/none.png" class="img-fluid rounded pt-2" alt="...">
+                      </div>
+                      <div class="col-md-10">
+                        <div class="card-body">
+                          <h5 class="card-title">
+                              <div class="con3_text d-flex justify-content-between">
+                                  <div class="con3_text1 fw-bold fs-5">Gimia</div>
+                                  <div class="con3_text2">
+                                    <p class="review_div d-inline-block m-0">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                      </p>
+                                  </div>
+                              </div>
+                            </h5>
+                          <p class="card-text c_red"><small class="">December 31, 2021 at 10:31 am</small></p>
+                        <p class="text-muted">Progressively procrastinate mission-critical action items before team building ROI. Interactively provide access to cross functional quality vectors for client-centric catalysts for change.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-12 mt-5">
+                    <div class="row cont_bg px-5">
+                      <div class="con_tex1 fs-2 fw-bold pt-5">
+                        Add a review
+                      </div>
+                      <div class="con_tex2 text-muted mb-4">
+                        Your email address will not be published. Required fields are marked *
+                      </div>
+                      <div class="mb-3 name-input">
+                        <input type="text" class="form-control py-3 rounded-3" id="exampleFormControlInput1" placeholder="Your Name"/>
+                        <i class="fas fa-user"></i>
+                      </div>
+      
+                      <div class="mb-3 email-input">
+                        <input type="email" class="form-control py-3 rounded-3" id="exampleFormControlInput1" placeholder="Your Email" />
+                        <i class="far fa-envelope"></i>
+                      </div>
+      
+        
+      
+                  <div class="mb-3 comment-input">
+                    <textarea class="form-control py-3 rounded-3" id="exampleFormControlTextarea1" rows="3" placeholder="Type Message" ></textarea>
+                    <i class="fas fa-pencil"></i>
+                  </div>
+                  <div class="sub d-flex">
+                 <a class="btn btn-primary contact_btn fw-bold my-4" href="#" role="button">Post Review</a>
+                    </div>
+                    </div>
+                  </div>
+
+
+
+
+
+
+
+                  </div>
+
+
+
+
+
+
+
+
+
+            </div>
+          </div>
+
+      </div>
+
+
+
+      <div class="container-fluid footer">
+        <div class="row footer_row m-auto row-cols-1 row-cols-lg-3">
+            <div class="col">
+              <div class="row">
+                  <div class="foo_text1 fw-bold fs-3 my-3">About Us</div>
+                  <div class="c_gray f_gray my-3">Credibly procrastinate portunities through echni cally sound technologies. Develop outsourcing through web services transform maintain integrated customer service...
+                  </div>
+                  <div class="foo_icons d-flex">
+                    <div class="foo_i d-flex justify-content-center align-items-center">
+                      <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <div class="foo_i d-flex justify-content-center align-items-center ms-2">
+                      <i class="fab fa-twitter"></i>
+                    </div>
+                    <div class="foo_i d-flex justify-content-center align-items-center ms-2">
+                      <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="foo_i d-flex justify-content-center align-items-center ms-2">
+                      <i class="fab fa-linkedin"></i>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="row">
+                <div class="foo_text1 fw-bold fs-3 my-3">All Services</div>
+                  <div class="col-5">
+                      <div class="all_serv fw-bold d-flex align-items-center"><i class="fas fa-long-arrow-alt-right me-2"></i> Body Health</div>
+                      <div class="all_serv fw-bold d-flex align-items-center"><i class="fas fa-long-arrow-alt-right me-2"></i> Mental Care</div>
+                      <div class="all_serv fw-bold d-flex align-items-center"><i class="fas fa-long-arrow-alt-right me-2"></i> Muscle Gain</div>
+                      <div class="all_serv fw-bold d-flex align-items-center"><i class="fas fa-long-arrow-alt-right me-2"></i> Fitness Mind</div>
+                      <div class="all_serv fw-bold d-flex align-items-center"><i class="fas fa-long-arrow-alt-right me-2"></i> Fresh Body</div>
+                      <div class="all_serv fw-bold d-flex align-items-center"><i class="fas fa-long-arrow-alt-right me-2"></i> Daily Routine</div>
+                  </div>
+
+                  <div class="col-5">
+                    <div class="all_serv fw-bold d-flex align-items-center"><i class="fas fa-long-arrow-alt-right me-2"></i> Muscle Gain</div>
+                    <div class="all_serv fw-bold d-flex align-items-center"><i class="fas fa-long-arrow-alt-right me-2"></i> Body Health</div>
+                    <div class="all_serv fw-bold d-flex align-items-center"><i class="fas fa-long-arrow-alt-right me-2"></i> Mental Care</div>
+                    <div class="all_serv fw-bold d-flex align-items-center"><i class="fas fa-long-arrow-alt-right me-2"></i> Fat Burn</div>
+                    <div class="all_serv fw-bold d-flex align-items-center"><i class="fas fa-long-arrow-alt-right me-2"></i> Yoga Exercise</div>
+                    <div class="all_serv fw-bold d-flex align-items-center"><i class="fas fa-long-arrow-alt-right me-2"></i> Finish Fast</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="row">
+                <div class="foo_text1 fw-bold fs-3 my-3">News Feed</div>
+                <div class="card mb-3 mt-3 foo_card">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                      <img src="Images/blog-big-1-387x300.jpg" class="img-fluid rounded" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title fs-5">Credibly procra stinate portu nities</h5>
+                        <p class="card-text"><small class="text-muted"><i class="far fa-calendar-alt me-1"></i> 01 December, 2021</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3 foo_card">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                      <img src="Images/blog-big-5-387x300.jpg" class="img-fluid rounded" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Services enable process is to</h5>
+                        <p class="card-text"><small class="text-muted"><i class="far fa-calendar-alt me-1"></i> 01 December, 2021</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="container-fluid copyright text-center">
+        <p><span class="co_gray">Copyright <i class="far fa-copyright"></i> 2022</span> <b>Gimia.</b> <span class="co_gray">All Rights Reserved by</span> <b>Angfuzsoft</b></p>
+      </div>
+
+
+
+
+
+
+
+
+
+
+      </body>
+      </html>
